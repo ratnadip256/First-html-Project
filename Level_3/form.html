@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms creating</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+       <!--form input tag(username enter box and password box)-->
+       <input type="text" placeholder="username">
+       <br/>
+       <input type="password" placeholder="password">
+       <br/>
+       
+       <!--any one option choose button-->
+       <p>Choose your option</p>
+       <label id="101">
+       <input type="radio" value="YES" name="class" id="101">YES
+       </label>
+       <label id="102">
+       <input type="radio" value="NO" name="class" id="102">NO
+       </label>
+       <br/>
+
+       <!--checkbox-->
+       <p>Select Subjects:</p>
+       <label for="math">
+        <input type="checkbox" value="math" name="subject" id="103">Math
+       </label>
+        <br/>
+        <label for="physics">
+        <input type="checkbox" value="physics" name="subject" id="104">physics
+        </label>
+        <br/>
+        <label for="biology">
+        <input type="checkbox" value="bio" name="subject" id="105">biology
+        </label>
+        <br/>
+        <label for="chmeistry">
+        <input type="checkbox" value="chemistry" name="subject" id="106">chemistry
+        </label>
+       <br/><br/>
+
+       <!--Select list-->
+       <p>Select Yoour City</p>
+       <select name="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Chennai">Chennai</option>
+        <option value="west Bengal">West Bengal</option>
+       </select>
+    <br/><br/>
+
+       <!---feedback box-->
+       <p>Feedback</p>
+    <textarea name="feedback" id="101" placeholder="Please enter your valuuable feedback here"> Feedback</textarea>
+    <br/><br/>
+
+    <!--Sumit  Button-->
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
